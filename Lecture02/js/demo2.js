@@ -2,7 +2,7 @@ var height = parseFloat(prompt("Insert your height (cm):"));
 var weight = parseInt(prompt("Insert your weight (kg):"));
 // Compare parseInt with parseFloat for float inputs
 
-if (typeof height != Number || typeof number != Number) {
+if (typeof height != Number || typeof weight != Number) {
   console.log("Invalid input!");
 }
 
