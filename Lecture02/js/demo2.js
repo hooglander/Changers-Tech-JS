@@ -1,10 +1,7 @@
-var height = parseFloat(prompt("Insert your height (cm):"));
+var height = parseInt(prompt("Insert your height (cm):"));
 var weight = parseInt(prompt("Insert your weight (kg):"));
-// Compare parseInt with parseFloat for float inputs
-
-if (typeof height != Number || typeof weight != Number) {
-  console.log("Invalid input!");
-}
+// Compare parseInt with parseFloat by using float inputs
+// Also compare not using parse and check the type with typeof
 
 height = height/100;  // To convert cm to m
 const formula = weight/(height*height);
